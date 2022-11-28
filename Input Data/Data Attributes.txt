@@ -1,0 +1,74 @@
+BreakUp 1 and 2 Output With Market Data vFinal Attributes
+
+1. Total # of companies - 1796
+2. Total # of variable columns - 506 
+3. Start year - 2000
+4. End year - 2021
+5. Total # of variables per year - 23
+6. TBAG80 - 32 (Acquired - 13, Not Acquired - 19)
+7. TBAG50L80 - 125 (Acquired - 42, Not Acquired - 83)
+
+---------------
+
+Initial set of variables - 23
+
+IV1: Return on Equity 
+IV2: Return on Sales
+IV3: Return on Capital Employed 
+IV4: Net Interest Margin
+IV5: Return on Assets
+IV6: Market Capitalization/ Equity
+IV7: Quick Ratio
+IV8: Current Ratio
+IV9: Asset Turnover
+IV10: Sales Growth over past year
+IV11: Equity Turnover
+IV12: Invested Capital Turnover
+IV13: Pretax Margin
+IV14: Profit Margin
+IV15: Earnings Per Share (EPS)
+IV16: Market Capitalization
+IV17: Sales
+IV18: Number of employees
+IV19: Total Assets
+IV20: Debt to Asset Ratio
+IV21: Debt to Equity Ratio
+IV22: Interest Coverage Ratio
+IV23: Free Cash Flow Return
+
+--------------
+No data removed - this is programmatically - 6 
+
+IV4: Net Interest Margin
+IV6: Market Capitalization/ Equity
+IV9: Asset Turnover
+IV15: Earnings Per Share (EPS)
+IV16: Market Capitalization
+IV18: Number of employees
+
+-------------
+
+Colinearity removed - 7
+
+IV3: Return on Capital Employed 
+IV5: Return on Assets
+IV7: Quick Ratio
+IV12: Invested Capital Turnover
+IV13: Pretax Margin
+IV19: Total Assets
+IV20: Debt to Asset Ratio
+
+---------------
+
+Final # of variables to be considered for Logistic Regression and Machine Learning - 10
+
+IV1: Return on Equity 
+IV2: Return on Sales
+IV8: Current Ratio
+IV10: Sales Growth over past year
+IV11: Equity Turnover
+IV14: Profit Margin
+IV17: Sales
+IV21: Debt to Equity Ratio
+IV22: Interest Coverage Ratio
+IV23: Free Cash Flow Return
